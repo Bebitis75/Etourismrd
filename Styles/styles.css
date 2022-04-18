@@ -1,0 +1,840 @@
+.Text{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 7%;
+    margin-top: -5%;
+}
+
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: -10%
+
+}
+
+
+  .Divicion-1 {
+    margin-top:-1%;
+    margin-left: -1%;
+    width:101.55%;
+    height: 150px;
+    position: relative;
+    border: 0px;
+    }
+
+
+.Logo{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top:-5px;
+    animation-name: Logo;
+    animation-duration:3s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    font-family:"lucida handwriting",cursive;
+
+    }
+
+
+    @keyframes Logo
+    {
+      from{transform: translateX(-5%)}
+      to{transform:translateX(320%)}
+    }
+
+
+    .Divicion-2{
+      margin-top: 0%;
+      margin-left: -1%;
+      position:relative;
+      width: 101.5%;
+      height: 400px;
+      background-color: #FB2D2f;
+    }
+    .bagulas{
+    position: absolute;
+    margin:0px;
+    height: 200px;
+    width: 300px;
+    left: 79%;
+
+
+
+    }
+
+    .dunas{
+    position: absolute;
+    margin: 0px;
+    height: 200px;
+    width: 300px;
+    left: 57.4%;
+    top:200px;
+
+    }
+
+    .zonaColonial{
+        position: absolute;
+        margin:0px;
+        height: 300px;
+        width: 500px;
+        left: 60%;
+        top: 67%;
+    }
+
+    .Intro{
+      position: absolute;
+      font-family:"lucida handwriting",cursive;
+      left: 10px;
+      width:101.5%;
+      height: 700px;
+    }
+
+    .Mapa{
+        position: absolute;
+        margin: 200px;
+        height: auto;
+        width: auto;
+        text-align: center;
+
+
+
+        }
+
+    .Azua{
+  margin-left: 37%;
+  position: absolute;
+  margin-top: 42%;
+}
+
+.Bahoruco{
+  margin-left: 27%;
+  position: absolute;
+  margin-top: 43.5%;
+}
+
+.Barahona{
+  margin-left: 28.5%;
+  position: absolute;
+  margin-top: 52%;
+}
+
+.Dajabón{
+  margin-left: 22.4%;
+  position: absolute;
+  margin-top: 23%;
+}
+
+.DistritoNacional{
+  margin-left: 54%;
+  position: absolute;
+  margin-top: 44%;
+}
+
+.Duarte{
+  margin-left: 51.4%;
+  position: absolute;
+  margin-top: 29%;
+}
+
+.ElíasPiña{
+  margin-left: 23.4%;
+  position: absolute;
+  margin-top: 30%;
+}
+
+.ElSeibo{
+  margin-left: 71.4%;
+  position: absolute;
+  margin-top: 38%;
+}
+
+.Espaillat{
+  margin-left: 45.4%;
+  position: absolute;
+  margin-top: 21.5%;
+}
+
+.HatoMayor{
+  margin-left: 63%;
+  position: absolute;
+  margin-top: 33.5%;
+}
+
+.HermanasMirabal{
+  margin-left: 45%;
+  position: absolute;
+  margin-top: 24.5%;
+}
+
+
+.Independencia{
+  margin-left: 22%;
+  position: absolute;
+  margin-top: 46.5%;
+}
+
+.PuertoPlata{
+  margin-left: 36%;
+  position: absolute;
+  margin-top: 17%;
+}
+
+.Samaná{
+  margin-left: 63%;
+  position: absolute;
+  margin-top: 28.2%;
+}
+.MonteCristi{
+  margin-left: 24%;
+  position: absolute;
+  margin-top: 17.5%;
+}
+
+.LaAltagracia{
+  margin-left: 78%;
+  position: absolute;
+  margin-top: 42.5%;
+}
+
+.SantoDomingo{
+  margin-left: 54.4%;
+  position: absolute;
+  margin-top: 43%;
+}
+
+.Santiago{
+  margin-left: 28.4%;
+  position: absolute;
+  margin-top: 24.5%;
+}
+
+.Pedernales{
+  margin-left: 23.8%;
+  position: absolute;
+  margin-top: 56.5%;
+}
+
+.SanJosédeOcoa{
+  margin-left: 42.8%;
+  position: absolute;
+  margin-top: 40.8%;
+}
+
+.SanPedrodeMacorís{
+  margin-left: 65%;
+  position: absolute;
+  margin-top: 42.8%;
+}
+
+.MonseñorNouel{
+  margin-left: 45%;
+  position: absolute;
+  margin-top: 36%;
+}
+
+.SanCristóbal{
+  margin-left: 47%;
+  position: absolute;
+  margin-top: 43%;
+}
+
+.SanJuan{
+  margin-left: 28%;
+  position: absolute;
+  margin-top: 36%;
+}
+
+.MontePlata{
+  margin-left: 58%;
+  position: absolute;
+  margin-top: 35%;
+}
+
+    .Container{
+        max-width: 1400px;
+        margin: auto;
+    }
+
+  .stars{
+    position: relative;
+    padding-bottom: 70px;
+    top: 1000px;
+    left: 43%;
+
+
+  }
+
+
+    .stars a{
+      opacity: 50%;
+      cursor: pointer;
+     padding: 10px;
+    }
+
+    .stars:hover a{
+      opacity: 100%;
+    }
+
+    .stars a:hover{
+      opacity: 100%;
+    }
+
+    .stars a:hover ~ a{
+      opacity: 50%;
+    }
+    .stars a.active{
+      opacity:100%;
+    }
+
+
+    .stars.disabled{
+      pointer-events: none;
+    }
+
+    .evaluacionstar{
+      position: absolute;
+      top: -120px;
+      left: 37px;
+
+    }
+/*****Puerto Plata************************************************************/
+.Puertop1{
+  position: relative;
+  top: -8px;
+  height: 120px;
+  width: 101.2%;
+  left:-8px;
+  background-color:#39A2DB;
+
+}
+
+.puerop1h1{
+  font-family:"lucida handwriting",cursive;
+  padding-top: 10px;
+  position:absolute;
+  left: 36%;
+}
+
+.ptp{
+    position: absolute;
+    font-family:"lucida handwriting",cursive;
+    font-size: 30px;
+    left: 40%;
+}
+.Puertop2{
+position: relative;
+background-color: #94DAFF;
+top: 100px;
+height: 2700px;
+width: 100%;
+
+
+
+}
+.playadorada{
+  position: absolute;
+  left: 23%;
+  top: 90px;
+  height: 500px;
+  width: 700px;
+}
+
+.ptp2{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 40%;
+  top:650px;
+}
+
+.Playasosua{
+  position: absolute;
+  left: 23%;
+  top: 750px;
+  height: 500px;
+  width: 700px;
+}
+
+.ptp3{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 40%;
+  top:1300px;
+}
+
+.Callerosada{
+  position: absolute;
+  left: 27%;
+  top: 1400px;
+  height: 500px;
+  width: 550px;
+}
+
+.ptp4{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 42%;
+  top:1950px;
+}
+
+.teleferico{
+  position: absolute;
+  left: 22%;
+  top: 2050px;
+  height: 500px;
+  width: 700px
+}
+/*******Samaná*****************************************************************/
+.sdiv1{
+  position: relative;
+  top: -8px;
+  height: 120px;
+  width: 101.2%;
+  left:-8px;
+  background-color:#39A2DB;
+
+}
+
+.sh1{
+  font-family:"lucida handwriting",cursive;
+  padding-top: 10px;
+  position:absolute;
+  left: 36%;
+}
+
+.sp1{
+    position: absolute;
+    font-family:"lucida handwriting",cursive;
+    font-size: 30px;
+    left: 40%;
+}
+.sdiv2{
+position: relative;
+background-color: #94DAFF;
+top: 100px;
+height: 2700px;
+width: 100%;
+
+
+
+}
+.Playalasterrenas{
+  position: absolute;
+  left: 23%;
+  top: 90px;
+  height: 500px;
+  width: 700px;
+}
+
+.sp2{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 40%;
+  top:650px;
+}
+
+.Playalasgaleras{
+  position: absolute;
+  left: 23%;
+  top: 750px;
+  height: 500px;
+  width: 700px;
+}
+
+.sp3{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 40%;
+  top:1300px;
+}
+
+.cascadalimon{
+  position: absolute;
+  left: 27%;
+  top: 1400px;
+  height: 500px;
+  width: 550px;
+}
+
+.sp4{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 36%;
+  top:1950px;
+}
+
+.Parquehaitises{
+  position: absolute;
+  left: 22%;
+  top: 2050px;
+  height: 500px;
+  width: 700px
+}
+/*******Montecristi************************************************************/
+.mcd1{
+  position: relative;
+  top: -8px;
+  height: 120px;
+  width: 101.2%;
+  left:-8px;
+  background-color:#39A2DB;
+
+}
+
+.mch1{
+  font-family:"lucida handwriting",cursive;
+  padding-top: 10px;
+  position:absolute;
+  left: 36%;
+}
+
+.mcp{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 40%;
+}
+
+.mcd2{
+position: relative;
+background-color: #94DAFF;
+top: 100px;
+height: 2700px;
+width: 100%;
+
+
+}
+.playam{
+  position: absolute;
+  left: 23%;
+  top: 90px;
+  height: 500px;
+  width: 700px;
+}
+
+.mcp2{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 40%;
+  top:650px;
+}
+
+.salinasdemc{
+  position: absolute;
+  left: 23%;
+  top: 750px;
+  height: 500px;
+  width: 700px;
+}
+
+.mcp3{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 40%;
+  top:1300px;
+}
+
+.buenhombre{
+  position: absolute;
+  left: 27%;
+  top: 1400px;
+  height: 500px;
+  width: 550px;
+}
+
+.mcp4{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 29%;
+  top:1950px;
+}
+
+.Museomaxyjos{
+  position: absolute;
+  left: 22%;
+  top: 2050px;
+  height: 500px;
+  width: 700px
+}
+
+/*******altagracia*************************************************************/
+.Altd1{
+  position: relative;
+  top: -8px;
+  height: 120px;
+  width: 101.2%;
+  left:-8px;
+  background-color:#39A2DB;
+
+}
+
+.alth1{
+  font-family:"lucida handwriting",cursive;
+  padding-top: 10px;
+  position:absolute;
+  left: 36%;
+}
+
+.altp1{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 42%;
+}
+
+.Altd2{
+position: relative;
+background-color: #94DAFF;
+top: 100px;
+height: 2700px;
+width: 100%;
+
+
+}
+.Macao{
+  position: absolute;
+  left: 23%;
+  top: 90px;
+  height: 500px;
+  width: 700px;
+}
+
+.altp2{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 38%;
+  top:650px;
+}
+
+.Nisibon{
+  position: absolute;
+  left: 23%;
+  top: 750px;
+  height: 500px;
+  width: 700px;
+}
+
+.altp3{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 38%;
+  top:1300px;
+}
+
+.Salvaleon{
+  position: absolute;
+  left: 27%;
+  top: 1400px;
+  height: 500px;
+  width: 550px;
+}
+
+.altp4{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 42%;
+  top:1950px;
+}
+
+.saona{
+  position: absolute;
+  left: 22%;
+  top: 2050px;
+  height: 500px;
+  width: 700px
+}
+
+/******Barahona***************************************************************/
+
+.baraD1{
+  position: relative;
+  top: -8px;
+  height: 120px;
+  width: 101.2%;
+  left:-8px;
+  background-color:#39A2DB;
+
+}
+
+.baraH1{
+  font-family:"lucida handwriting",cursive;
+  padding-top: 10px;
+  position:absolute;
+  left: 36%;
+}
+
+.barap1{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 42%;
+}
+
+.baraD2{
+position: relative;
+background-color: #94DAFF;
+top: 100px;
+height: 2700px;
+width: 100%;
+
+
+}
+.Lascaritas{
+  position: absolute;
+  left: 23%;
+  top: 90px;
+  height: 500px;
+  width: 700px;
+}
+
+.barap2{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 38%;
+  top:650px;
+}
+
+.Minalarimar{
+  position: absolute;
+  left: 23%;
+  top: 750px;
+  height: 500px;
+  width: 700px;
+}
+
+.barap3{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 38%;
+  top:1300px;
+}
+
+.playaquemaito{
+  position: absolute;
+  left: 27%;
+  top: 1400px;
+  height: 500px;
+  width: 550px;
+}
+
+.barap4{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 39%;
+  top:1950px;
+}
+
+.lagoenri{
+  position: absolute;
+  left: 22%;
+  top: 2050px;
+  height: 500px;
+  width: 700px
+}
+
+/*******Santo Domingo***********************************************************/
+
+.SantD1{
+  position: relative;
+  top: -8px;
+  height: 120px;
+  width: 101.2%;
+  left:-8px;
+  background-color:#39A2DB;
+
+}
+
+.SantoH1{
+  font-family:"lucida handwriting",cursive;
+  padding-top: 10px;
+  position:absolute;
+  left: 36%;
+}
+
+.Santp1{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 42%;
+}
+
+.SantD2{
+position: relative;
+background-color: #94DAFF;
+top: 100px;
+height: 2700px;
+width: 100%;
+
+
+}
+.zonacolonial{
+  position: absolute;
+  left: 34%;
+  top: 90px;
+  height: 500px;
+  width: 400px;
+}
+
+.Santp2{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 38%;
+  top:650px;
+}
+
+.Tresojos{
+  position: absolute;
+  left: 25%;
+  top: 750px;
+  height: 500px;
+  width: 700px;
+}
+
+.Santp3{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 42%;
+  top:1300px;
+}
+
+.acuarionacional{
+  position: absolute;
+  left: 25%;
+  top: 1400px;
+  height: 500px;
+  width: 700px;
+}
+
+.Santp4{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 45%;
+  top:1950px;
+}
+
+.malecon{
+  position: absolute;
+  left: 25%;
+  top: 2050px;
+  height: 500px;
+  width: 700px
+}
