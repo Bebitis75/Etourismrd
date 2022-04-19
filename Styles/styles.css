@@ -861,3 +861,94 @@ width: 100%;
   height: auto;
   width: 50%;
 }
+
+    /*******6last***********************************************************/
+
+.SjdlmD1{
+  position: relative;
+  top: -8px;
+  height: 120px;
+  width: 101.2%;
+  left:-8px;
+  background-color:#39A2DB;
+
+}
+
+.SjdlmH1{
+  font-family:"lucida handwriting",cursive;
+  padding-top: 10px;
+  position:absolute;
+  left: 36%;
+}
+
+.Sjdlmp1{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 42%;
+}
+
+.SjdlmD2{
+position: relative;
+background-color: #94DAFF;
+top: 100px;
+height: 2700px;
+width: 100%;
+
+
+}
+.Balnearios{
+  position: absolute;
+  left: 34%;
+  top: 90px;
+  height: 500px;
+  width: 400px;
+}
+
+.Sjdlmp2{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 38%;
+  top:650px;
+}
+
+.Heroes{
+  position: absolute;
+  left: 25%;
+  top: 750px;
+  height: 500px;
+  width: 700px;
+}
+
+.Sjdlmp3{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 42%;
+  top:1300px;
+}
+
+.Parque{
+  position: absolute;
+  left: 25%;
+  top: 1400px;
+  height: 500px;
+  width: 700px;
+}
+
+.Sjdlmp4{
+  position: absolute;
+  font-family:"lucida handwriting",cursive;
+  font-size: 30px;
+  left: 45%;
+  top:1950px;
+}
+
+.Anacaona{
+  position: absolute;
+  left: 25%;
+  top: 2050px;
+  height: 500px;
+  width: 700px
+}
