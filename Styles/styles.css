@@ -25,8 +25,8 @@ h2{
 
 
 .Logo{
-    height: 200px;
-    width: 200px;
+    height: 13.5%;
+    width: 13.5%;
     position: absolute;
     top:-5px;
     animation-name: Logo;
@@ -41,7 +41,7 @@ h2{
     @keyframes Logo
     {
       from{transform: translateX(-5%)}
-      to{transform:translateX(320%)}
+      to{transform:translateX(310%)}
     }
 
 
@@ -94,18 +94,25 @@ h2{
     .Mapa{
         position: absolute;
         margin: 200px;
-        height: auto;
-        width: auto;
+        height: 90%;
+        width: 70%;
         text-align: center;
+        display: block;
+        left: 16%;
+        margin-left:auto;
+        margin-right:auto;
 
 
 
         }
 
     .Azua{
-  margin-left: 37%;
+  left: 37%;
   position: absolute;
-  margin-top: 42%;
+  top: 198%;
+  margin-left:auto;
+  margin-right:auto;
+    display: block;
 }
 
 .Bahoruco{
@@ -778,7 +785,7 @@ width: 100%;
 position: relative;
 background-color: #94DAFF;
 top: 100px;
-height: 2700px;
+height: 2200%;
 width: 100%;
 
 
@@ -787,24 +794,33 @@ width: 100%;
   position: absolute;
   left: 34%;
   top: 90px;
-  height: 500px;
-  width: 400px;
+  height: auto;
+  width: 30%;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  padding-bottom:10%;
+  border-bottom: 20%;
 }
 
 .Santp2{
   position: absolute;
+  padding-top: ;
   font-family:"lucida handwriting",cursive;
   font-size: 30px;
   left: 38%;
-  top:650px;
+  top:730px;
 }
 
 .Tresojos{
   position: absolute;
   left: 25%;
-  top: 750px;
-  height: 500px;
-  width: 700px;
+  top: 830px;
+  height: auto;
+  width: 50%;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .Santp3{
@@ -819,22 +835,29 @@ width: 100%;
   position: absolute;
   left: 25%;
   top: 1400px;
-  height: 500px;
-  width: 700px;
+  height: auto;
+  width: 50%;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .Santp4{
   position: absolute;
   font-family:"lucida handwriting",cursive;
-  font-size: 30px;
+  font-size: 200%;
   left: 45%;
   top:1950px;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+
 }
 
 .malecon{
   position: absolute;
   left: 25%;
   top: 2050px;
-  height: 500px;
-  width: 700px
+  height: auto;
+  width: 50%;
 }
