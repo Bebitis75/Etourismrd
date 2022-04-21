@@ -956,3 +956,104 @@ width: 100%;
   height: 500px;
   width: 700px
 }
+
+
+/*Buscador de contenido*/
+
+#ctn-icon-search{
+  position: absolute;
+  right: 20px;
+  height: 63%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ctn-icon-search i{
+  font-size: 18px;
+  color: #777777;
+  cursor: pointer;
+
+}
+
+#ctn-icon-search i:hover{
+  color:rgb(35, 156, 42);
+}
+
+#ctn-icon-search-copy{
+  position: absolute;
+  right: 20px;
+  height: 63%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ctn-icon-search-copy i{
+  font-size: 18px;
+  color: #777777;
+  cursor: pointer;
+
+}
+
+#ctn-icon-search-copy i:hover{
+  color:rgb(35, 156, 42);
+}
+
+#ctn-bars-search{
+
+  top: -10px;
+  width: 100%;
+  padding: 0px;
+  z-index: 9;
+  display: block;
+  visibility: hidden;
+
+
+}
+
+#ctn-bars-search input{
+  display: block;
+  width: 200px;
+  margin: auto;
+  padding: 10px;
+  font-size: 14px;
+  outline: 0;
+  transform: translateX(221.5%) translateY(450%);
+
+  
+
+}
+
+#provincia{
+  transform: translateY(200%);
+}
+
+#mapa{
+  transform: translateY(-10%);
+}
+
+
+
+#box-search{
+  position: absolute;
+  top: 1069px;
+  left: 50%;
+  transform: translateX(174%);
+  width: 181.5px;
+  background: #fffefe;
+  z-index: 8;
+  overflow: hidden;
+  display: none;
+}
+
+#box-search li a{
+  display: block;
+  width: 1200px;
+  color: rgb(35, 156, 42);
+  padding: 5px 20px;
+}
+
+#box-search li a:hover{
+  background: #c2e59c;
+}
