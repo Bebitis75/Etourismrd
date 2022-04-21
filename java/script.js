@@ -1,4 +1,5 @@
 /*jshint esversion: 6 */
+//estrellita donde estas!
 const star= document.querySelectorAll(".stars");
 const stars = document.querySelectorAll(" .stars a");
 

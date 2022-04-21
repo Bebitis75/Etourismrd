@@ -111,12 +111,10 @@ h2{
         }
 
     .Azua{
-  left: 37%;
+  left: 39%;
   position: absolute;
-  top: 220%;
-  margin-left:auto;
-  margin-right:auto;
-    display: block;
+  top: 190%;
+
 }
 
 .Bahoruco{
@@ -1021,7 +1019,7 @@ width: 100%;
   outline: 0;
   transform: translateX(221.5%) translateY(450%);
 
-  
+
 
 }
 
